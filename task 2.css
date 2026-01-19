@@ -1,0 +1,82 @@
+#flex{
+    display:flex; 
+    margin-top: 10px;
+    gap: 10px;
+    
+   
+}
+#topscreen{
+   margin-right: 100px;
+}
+#logo{
+    width: 50%;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+#topscreen{
+    margin-left: 50px;
+    display: block;
+   
+}
+ p{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 70px;
+    font-size: 20px;
+    
+ }
+#h1first{
+    font-size: 40px;
+}
+ #secscreen{
+    width: 700px;
+    height: 700px;
+ }
+ #secflex{
+    display: flex;
+ }
+ #h1sec{
+    margin-top: 170px;
+    font-size: 60px;
+ }
+ #pre{
+    font-size: 20px;
+    font-style: normal;
+ }
+ #divflex{
+    display: flex;
+ }
+ #divimage{
+    width: 700px;
+    height: 700px;
+    margin-left: 200px  ;
+    
+ }
+ #divthhh{
+   gap: 40px;
+    margin-left: 120px;
+    margin-right: 50px;
+    padding-right: 50px;
+ }
+ #divtextstyle{ 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-left: 90px;
+    margin-top: 150px;
+
+ }
+ #lastflex{
+    display: flex;
+ }
+ #lasth1{
+    margin-top: 150px;
+    margin-left: 190px;
+ }
+
+.end{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}  
