@@ -1,82 +1,148 @@
 #flex{
+   width: 91%;
     display:flex; 
-    margin-top: 10px;
+    margin-top: 40px;
     gap: 10px;
+    padding-left:  57px;
+    padding-right:  57px;
+         /* margin: 100px; */
     
    
 }
-#topscreen{
-   margin-right: 100px;
-}
+
 #logo{
-    width: 50%;
+    /* width: 50%;
     margin-left: 90px;
-    margin-top: 50px;
-}
-#topscreen{
-    margin-left: 50px;
-    display: block;
-   
+    margin-top: 50px; */
+    width: 53%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
  p{
     text-align: center;
-    margin-top: 0px;
-    margin-bottom: 70px;
-    font-size: 20px;
+    margin-top: -10px;
+    
+    font-size: 30px;
+    color: rgb(95, 95, 95);
     
  }
 #h1first{
-    font-size: 40px;
+   
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    margin-left: 10px;
+}
+.top-icon{
+   display: flex;
+   gap: 15px;
 }
  #secscreen{
-    width: 700px;
-    height: 700px;
+    width: 600px;
+    height: 600px;
  }
  #secflex{
     display: flex;
+    margin-left: 100px;
+ }
+ .h1-p-flex-div{
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
  }
  #h1sec{
-    margin-top: 170px;
-    font-size: 60px;
+   font-size: 40px;
+   font-family: Arial, Helvetica, sans-serif;
+   letter-spacing: 3px;
+
  }
  #pre{
-    font-size: 20px;
+    font-size: 30px;
     font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
  }
- #divflex{
+ #flex2{
     display: flex;
+    justify-content: center;
  }
- #divimage{
-    width: 700px;
-    height: 700px;
-    margin-left: 200px  ;
-    
- }
- #divthhh{
-   gap: 40px;
-    margin-left: 120px;
-    margin-right: 50px;
-    padding-right: 50px;
- }
- #divtextstyle{ 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    margin-left: 90px;
-    margin-top: 150px;
 
- }
+
+ #divtextstyle{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 70px; */
+}
+#divtextstyle h1{
+   font-size: 40px;
+   font-family: Arial, Helvetica, sans-serif;
+   letter-spacing: 3px;
+   margin-left: 10px;
+}
+#divtextstyle p{
+   font-size: 30px;
+   font-family: Arial, Helvetica, sans-serif;
+   letter-spacing: 2px;
+}
  #lastflex{
     display: flex;
+    justify-content: center;
  }
- #lasth1{
-    margin-top: 150px;
-    margin-left: 190px;
- }
+.last-textv-style img{
+   margin-top: 90px;
+   margin-left: -70px;
+}
+#lasth1{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding-top: 120px;
+}
+#lasth1 h1{
+   font-size: 40px;
+   font-family: Arial, Helvetica, sans-serif;
+   letter-spacing: 3px;
 
+}
+#lasth1 p{
+   font-size: 30px;
+   font-family: Arial, Helvetica, sans-serif;
+   letter-spacing: 2px;
+}
 .end{
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}  
+} 
+#forh1{
+   font-size: 35px;
+   font-weight: 400;
+   margin-bottom: 0px;
+} 
+#apdiv{
+   display: flex;
+   gap: 15px;
+   margin-top: 30px;
+}
+#linkdiv p{
+   margin-top: 20px;
+   font-size: 25px;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+#linkdiv a{
+   text-decoration: none;
+   color: rgb(85, 85, 253);
+   margin-top: 10px;
+}
+#lastestdiv{
+   /* margin-top: 35px; */
+}
